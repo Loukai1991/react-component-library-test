@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "esnext",
+    "target": "es5",
+    "declaration": true, //会为每一个js文件生成.d.ts的文件，协助类型智能提示
+    "jsx": "react",
+    "moduleResolution":"Node",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "src/setupTests.ts",
+  ]
+}
